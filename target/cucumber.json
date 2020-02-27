@@ -1,0 +1,554 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-02-06T13:55:05.147Z",
+        "before": [
+          {
+            "result": {
+              "duration": 924272000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 282900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUpDatabase()"
+            }
+          }
+        ],
+        "line": 58,
+        "name": "Different email from Database",
+        "description": "",
+        "id": "contacts-page;different-email-from-database;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 745590400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 196800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDownDatabase()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10731880000,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "the user logged in as a \"store manager\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"store manager\"",
+                  "offset": 24
+                }
+              ],
+              "location": "Contacts_Step_Defs.theUserLoggedInAsA(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3579115600,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "the user navigates \"Customers\" \"Contacts\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Customers\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Contacts\"",
+                  "offset": 31
+                }
+              ],
+              "location": "NavigationMenuStepDefs.the_user_navigates(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4125516400,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "the user click the \"mbrackstone9@example.com\" from contacts",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mbrackstone9@example.com\"",
+                  "offset": 19
+                }
+              ],
+              "location": "Contacts_Step_Defs.theUserClickTheFromContacts(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4221641600,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "the information \"mbrackstone9@example.com\" should be the same with database",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mbrackstone9@example.com\"",
+                  "offset": 16
+                }
+              ],
+              "location": "Contacts_Step_Defs.the_information_should_be_the_same_with_database(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@db"
+          },
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-02-06T13:55:29.513Z",
+        "before": [
+          {
+            "result": {
+              "duration": 686211000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 115700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUpDatabase()"
+            }
+          }
+        ],
+        "line": 59,
+        "name": "Different email from Database",
+        "description": "",
+        "id": "contacts-page;different-email-from-database;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 673641600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 191200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDownDatabase()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9362240500,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "the user logged in as a \"store manager\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"store manager\"",
+                  "offset": 24
+                }
+              ],
+              "location": "Contacts_Step_Defs.theUserLoggedInAsA(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2694573700,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "the user navigates \"Customers\" \"Contacts\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Customers\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Contacts\"",
+                  "offset": 31
+                }
+              ],
+              "location": "NavigationMenuStepDefs.the_user_navigates(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4088825800,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "the user click the \"odugmore5@sakura.ne.jp\" from contacts",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"odugmore5@sakura.ne.jp\"",
+                  "offset": 19
+                }
+              ],
+              "location": "Contacts_Step_Defs.theUserClickTheFromContacts(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4187264800,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "the information \"odugmore5@sakura.ne.jp\" should be the same with database",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"odugmore5@sakura.ne.jp\"",
+                  "offset": 16
+                }
+              ],
+              "location": "Contacts_Step_Defs.the_information_should_be_the_same_with_database(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@db"
+          },
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-02-06T13:55:51.209Z",
+        "before": [
+          {
+            "result": {
+              "duration": 635809900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 233500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUpDatabase()"
+            }
+          }
+        ],
+        "line": 60,
+        "name": "Different email from Database",
+        "description": "",
+        "id": "contacts-page;different-email-from-database;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 700500100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 127400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDownDatabase()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9439694000,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "the user logged in as a \"store manager\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"store manager\"",
+                  "offset": 24
+                }
+              ],
+              "location": "Contacts_Step_Defs.theUserLoggedInAsA(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2695596500,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "the user navigates \"Customers\" \"Contacts\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Customers\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Contacts\"",
+                  "offset": 31
+                }
+              ],
+              "location": "NavigationMenuStepDefs.the_user_navigates(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[contains(text(), \u0027safwansaba@hotmail.com\u0027) and @data-column-label\u003d\u0027Email\u0027]\"}\n  (Session info: chrome\u003d79.0.3945.130)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-OB0UVLQ\u0027, ip: \u0027192.168.1.65\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002712.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\\Users\\User\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57671}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 63bb65d81e833e3ad0f27631824b9d28\n*** Element info: {Using\u003dxpath, value\u003d//*[contains(text(), \u0027safwansaba@hotmail.com\u0027) and @data-column-label\u003d\u0027Email\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat com.vytrack.pages.ContactsPage.getContactEmail(ContactsPage.java:16)\r\n\tat com.vytrack.step_definitions.Contacts_Step_Defs.theUserClickTheFromContacts(Contacts_Step_Defs.java:85)\r\n\tat ✽.the user click the \"safwansaba@hotmail.com\" from contacts(file:src/test/resources/features/Contacts.feature:54)\r\n",
+              "duration": 4062541400,
+              "status": "failed"
+            },
+            "line": 54,
+            "name": "the user click the \"safwansaba@hotmail.com\" from contacts",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"safwansaba@hotmail.com\"",
+                  "offset": 19
+                }
+              ],
+              "location": "Contacts_Step_Defs.theUserClickTheFromContacts(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 36800,
+              "status": "skipped"
+            },
+            "line": 55,
+            "name": "the information \"safwansaba@hotmail.com\" should be the same with database",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"safwansaba@hotmail.com\"",
+                  "offset": 16
+                }
+              ],
+              "location": "Contacts_Step_Defs.the_information_should_be_the_same_with_database(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@db"
+          },
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-02-06T13:56:08.755Z",
+        "before": [
+          {
+            "result": {
+              "duration": 680048400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 210700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUpDatabase()"
+            }
+          }
+        ],
+        "line": 61,
+        "name": "Different email from Database",
+        "description": "",
+        "id": "contacts-page;different-email-from-database;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 740437300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 97500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDownDatabase()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8933127300,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "the user logged in as a \"store manager\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"store manager\"",
+                  "offset": 24
+                }
+              ],
+              "location": "Contacts_Step_Defs.theUserLoggedInAsA(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3575005400,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "the user navigates \"Customers\" \"Contacts\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Customers\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Contacts\"",
+                  "offset": 31
+                }
+              ],
+              "location": "NavigationMenuStepDefs.the_user_navigates(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4135659100,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "the user click the \"poohchi@bark.edu\" from contacts",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"poohchi@bark.edu\"",
+                  "offset": 19
+                }
+              ],
+              "location": "Contacts_Step_Defs.theUserClickTheFromContacts(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4216492200,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "the information \"poohchi@bark.edu\" should be the same with database",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"poohchi@bark.edu\"",
+                  "offset": 16
+                }
+              ],
+              "location": "Contacts_Step_Defs.the_information_should_be_the_same_with_database(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@db"
+          },
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Contacts Page",
+    "description": "",
+    "id": "contacts-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Contacts.feature",
+    "tags": []
+  }
+]
